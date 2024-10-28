@@ -1,0 +1,16 @@
+.page-title {
+    color: blueviolet;
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.card-body {
+    color: white;
+    background-color: black;
+    height: 100%;
+    text-align: left;
+}
+
+.card-body .email {
+    color: lightblue;
+}
