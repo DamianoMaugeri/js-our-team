@@ -23,8 +23,62 @@
 
         <div id="members" class="row flex-wrap row-gap-3">
 
-
         </div>
+
+        <form action="" method="get" id="form-add-info" class="mb-5 p-3">
+
+            <h1 class="text-center py-4">Aggiungi un membro</h1>
+
+            <div class="d-flex flex-wrap">
+
+                <div class="mb-3 col-lg-6 p-3 ">
+                    <label for="user-name" class="form-label">Nome</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="user-name"
+                            aria-describedby="basic-addon3 basic-addon4">
+                    </div>
+                </div>
+
+                <div class="mb-3 col-lg-6 p-3 ">
+                    <label for="user-last-name" class="form-label">Cognome</label>
+                    <div class="input-group">
+                        <input type="number" class="form-control" id="user-last-name"
+                            aria-describedby="basic-addon3 basic-addon4">
+                    </div>
+                </div>
+
+                <div class="mb-3 col-lg-6 p-3 ">
+
+                    <label for="user-role" class="mb-2">Ruolo</label>
+                    <select id="user-role" class="form-select mb-5" aria-label="Default select example">
+                        <option value="londra" selected>Front-end Developer</option>
+                        <option value="parigi">Back-end Developer</option>
+                        <option value="roma">SEO Specialist</option>
+                        <option value="barcellona">Project Manager</option>console.log()
+                    </select>
+                </div>
+
+                <div class="mb-3 col-lg-6 p-3 ">
+                    <label for="user-eamil" class="form-label">Cognome</label>
+                    <div class="input-group">
+                        <input type="email" class="form-control" id="user-eamil"
+                            aria-describedby="basic-addon3 basic-addon4">
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="text-center">
+
+                <button type="submit" class="btn btn-primary">GENERA</button>
+                <button type="reset" class="btn btn-primary">ANNULLA</button>
+
+            </div>
+
+        </form>
+
 
 
     </div>

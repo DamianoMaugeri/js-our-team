@@ -141,12 +141,15 @@ for (let i = 0; i < teamMembers.length; i++) {
 
 
 
-
-
-
-
-
-
-
-
 }
+
+// aggiundo un menbro con il form 
+
+// prendo i riferimenti dal form 
+
+const newUserName = document.getElementById('user-name');
+const newUserLastName = document.getElementById('user-last-name');
+const newUserRole = document.getElementById('user-role');
+const newUserEmail = document.getElementById('user-email');
+
+

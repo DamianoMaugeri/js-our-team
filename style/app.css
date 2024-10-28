@@ -14,3 +14,7 @@
 .card-body .email {
     color: lightblue;
 }
+
+#form-add-info {
+    background-color: rgba(148, 83, 145, 0.301);
+}
