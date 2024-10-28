@@ -32,17 +32,9 @@
             <div class="d-flex flex-wrap">
 
                 <div class="mb-3 col-lg-6 p-3 ">
-                    <label for="user-name" class="form-label">Nome</label>
+                    <label for="user-name" class="form-label">Nome Cognome</label>
                     <div class="input-group">
                         <input type="text" class="form-control" id="user-name"
-                            aria-describedby="basic-addon3 basic-addon4">
-                    </div>
-                </div>
-
-                <div class="mb-3 col-lg-6 p-3 ">
-                    <label for="user-last-name" class="form-label">Cognome</label>
-                    <div class="input-group">
-                        <input type="number" class="form-control" id="user-last-name"
                             aria-describedby="basic-addon3 basic-addon4">
                     </div>
                 </div>
@@ -51,20 +43,30 @@
 
                     <label for="user-role" class="mb-2">Ruolo</label>
                     <select id="user-role" class="form-select mb-5" aria-label="Default select example">
-                        <option value="londra" selected>Front-end Developer</option>
-                        <option value="parigi">Back-end Developer</option>
-                        <option value="roma">SEO Specialist</option>
-                        <option value="barcellona">Project Manager</option>console.log()
+                        <option value="Front-end Developer" selected>Front-end Developer</option>
+                        <option value="Back-end Developer">Back-end Developer</option>
+                        <option value="SEO Specialist">SEO Specialist</option>
+                        <option value="Project Manager">Project Manager</option>console.log()
                     </select>
                 </div>
 
                 <div class="mb-3 col-lg-6 p-3 ">
-                    <label for="user-eamil" class="form-label">Cognome</label>
+                    <label for="user-email" class="form-label">Email</label>
                     <div class="input-group">
-                        <input type="email" class="form-control" id="user-eamil"
+                        <input type="email" class="form-control" id="user-email"
                             aria-describedby="basic-addon3 basic-addon4">
                     </div>
                 </div>
+
+
+                <div class="mb-3 col-lg-6 p-3 ">
+                    <label for="user-last-name" class="form-label">Foto</label>
+                    <div class="input-group">
+                        <input type="url" class="form-control" id="user-img"
+                            aria-describedby="basic-addon3 basic-addon4">
+                    </div>
+                </div>
+
 
             </div>
 
@@ -84,10 +86,11 @@
     </div>
 
 
-
+    <script src="./script/data.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="./script/utils.js"></script>
     <script src="./script/script.js"></script>
 </body>
 
